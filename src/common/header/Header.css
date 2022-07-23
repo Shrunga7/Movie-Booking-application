@@ -1,0 +1,23 @@
+.header{
+    background-color: #222;
+    height:36px;
+    padding: 8px 32px 8px 16px;
+}
+img{
+   background-color:  #ff7f7f;
+   height: 35px;
+   animation-name: logo;
+   animation-duration: 8s;
+   animation-direction: rotation;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;  
+
+}
+@keyframes logo{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
