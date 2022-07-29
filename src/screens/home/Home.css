@@ -1,0 +1,25 @@
+span{
+    display: block;
+    background-color: #ff9999;
+    text-align: center;
+    padding:8px 8px 8px 8px;
+    font-size: 1rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+    
+}
+.left{
+    width: 76%;
+    left: 0;
+}
+.left img{
+    cursor: pointer;
+}
+filter{
+    width: 24%;
+    right:0;
+}
+
