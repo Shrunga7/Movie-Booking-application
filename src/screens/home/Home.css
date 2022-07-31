@@ -1,4 +1,4 @@
-span{
+.heading{
     display: block;
     background-color: #ff9999;
     text-align: center;
@@ -9,6 +9,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin: 16px;
+    justify-content: space-between;
     
 }
 .left{
@@ -17,9 +18,5 @@ span{
 }
 .left img{
     cursor: pointer;
-}
-filter{
-    width: 24%;
-    right:0;
 }
 
