@@ -105,7 +105,7 @@ function UpcomingMovies() {
   }
   function FilterCard(){
     return(
-        <Card style={{padding:20}}><CardActionArea }>
+        <Card style={{padding:20}}><CardActionArea>
           <FormControl style={{minWidth: 240,maxWidth: 240, margin: 'theme.spacing.unit'}}>
             <FormLabel style={{color:'#7986cb'}}>FIND MOVIES BY:</FormLabel>
                 <FormControl>
